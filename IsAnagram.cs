@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Algorithms
 {
-    internal class FrequencyCounter
+    internal class IsAnagram
     {
         public bool Same(int[] arr, int[] nums)
         {
