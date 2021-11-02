@@ -42,7 +42,7 @@ namespace Algorithms
             return true;
         }
 
-        public bool IsAnagram(string s1, string s2)
+        public bool IsAnnagram(string s1, string s2)
         {
             if(s1.Length != s2.Length) return false;
             //count the characters in s1

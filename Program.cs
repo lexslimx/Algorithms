@@ -6,9 +6,9 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            FibonacciSequence fib = new FibonacciSequence();
-            var ans = fib.FibTopDown(3);
-            Console.WriteLine(ans);
+            MoveZerosToEnd arr = new MoveZerosToEnd();
+            arr.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
+            
         }
     }
 }
