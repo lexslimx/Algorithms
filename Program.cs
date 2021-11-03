@@ -6,8 +6,8 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            MoveZerosToEnd arr = new MoveZerosToEnd();
-            arr.MoveZeroes(new int[] { 0, 1, 0, 3, 12 });
+            ReshapeMatrix arr = new ReshapeMatrix();
+            arr.MatrixReshape(new int[][] { new int[]{ 1,2 }, new int[] { 3, 4 } },4,1 );
             
         }
     }
