@@ -15,7 +15,8 @@ namespace Algorithms
 
         public int[] Intersect(int[] nums1, int[] nums2)
         {
-            Dictionary<int, int> map = new Dictionary<int, int>();
+            Dictionary<int, int> map =
+                new Dictionary<int, int>();
             List<int> ans = new List<int>();
 
             for (var i = 0; i < nums1.Length; i++)
