@@ -31,5 +31,43 @@ namespace Algorithms
 
             return ans;
         }
+
+        public int[] TwoSumSortedArray(int[] numbers, int target)
+        {
+            int[] ans = new int[2];
+            int left = 0;
+            int right = numbers.Length - 1;
+
+            while (left < right)
+            {
+                int sum = numbers[left] + numbers[right];
+
+                if (sum > target)
+                {
+                    right--;
+                    continue;
+                }
+                else if (sum < target)
+                {
+                    left++;
+                    continue;
+                }
+                else if (sum == target)
+                {
+                    ans[0] = left;
+                    ans[1] = right;
+                    return ans;
+                }
+                else
+                {
+                    left++;
+                    right--;
+                }
+            }
+
+            return ans;
+        }
+
+
     }
 }

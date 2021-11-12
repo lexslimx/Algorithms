@@ -6,10 +6,9 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            ReshapeMatrix arr = new ReshapeMatrix();
-            arr.MatrixReshape(new int[][] 
-                { new int[]{ 1,2 }, new int[] { 3, 4 } },4,1 );
-            Console.WriteLine("Hello World");
+            CountBinarySubstrings arr = new CountBinarySubstrings();
+            var ans = arr.CountSubstrings("00110011");
+            Console.WriteLine(ans);
         }
     }
 }
