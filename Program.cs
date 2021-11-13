@@ -6,8 +6,8 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            CountBinarySubstrings arr = new CountBinarySubstrings();
-            var ans = arr.CountSubstrings("00110011");
+            FirstMissingInteger arr = new FirstMissingInteger();
+            var ans = arr.FirstMissingPositive(new int[] { 1, 2, 0 });
             Console.WriteLine(ans);
         }
     }
