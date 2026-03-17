@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+// This class provides methods to solve the Two Sum problem
 namespace Algorithms
 {
     internal class TwoSum
@@ -25,7 +26,7 @@ namespace Algorithms
                 }
                 else
                 {
-                    if (!map.ContainsKey(diff)) map.Add(diff, i);
+                    if (!map.ContainsKey(diff)) map.Add(diff, 10);
                 }
             }
 
